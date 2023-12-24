@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">UD3_AppIdeas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_signup">Crea tu cuenta</string>
+    <string name="tiet_username_signup">Usuario</string>
+    <string name="tiet_pass_signup">Contraseña</string>
+    <string name="tiet_repeat_pass">Repite la contraseña</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="btn_back_to_login">Volver inicio de sesión</string>
+    <string name="tv_welcome">Bienvenido</string>
+    <string name="tv_q_login">¿Aún no estás registrado?</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="iv_profile_image">Imagen de perfil</string>
+    <string name="tv_name_user">Nombre de usuario</string>
+    <string name="tv_password_user">Contraseña: *******</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="btn_delete_account">Eliminar cuenta</string>
+    <string name="tv_no_list">Parece que no hay ninguna idea añadida aun. Prueba a crear una.</string>
+    <string name="fab_add">Añadir idea a la lista</string>
+    <string name="tv_progress_idea">Proceso</string>
+    <string name="tv_priority_idea">Prioridad</string>
+    <string name="tv_idea_name">Nombre idea</string>
+    <string name="tv_description_idea">Descripción de la idea</string>
+    <string name="chb_pendiente">Pendiente</string>
+    <string name="chb_proceso">En proceso</string>
+    <string name="chb_terminada">Terminada</string>
+    <string name="chb_alta">Alta</string>
+    <string name="chb_media">Media</string>
+    <string name="chb_baja">Baja</string>
+    <string name="btn_add_idea">Crear idea</string>
+    <string name="add_detail">Añadir detalle</string>
+    <string name="detail_List">Lista de detalles:</string>
+    <string name="update_idea">Actualizar</string>
+    <string name="select_image">Seleccionar imagen</string>
+    <string name="delete">Eliminar</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ideaListFragment">
+
+    <fragment
+        android:id="@+id/ideaListFragment"
+        android:name="utad.ud3_appideas.main_activity.IdeaListFragment"
+        android:label="fragment_idea_list"
+        tools:layout="@layout/fragment_idea_list" >
+        <action
+            android:id="@+id/action_ideaListFragment_to_ideaDetailFragment"
+            app:destination="@id/ideaDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountInfoFragment"
+        android:name="utad.ud3_appideas.main_activity.AccountInfoFragment"
+        android:label="fragment_account_info"
+        tools:layout="@layout/fragment_account_info" />
+    <fragment
+        android:id="@+id/ideaDetailFragment"
+        android:name="utad.ud3_appideas.main_activity.IdeaDetailFragment"
+        android:label="fragment_idea_detail"
+        tools:layout="@layout/fragment_idea_detail" >
+        <argument
+            android:name="ideaId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_btn_1">#AE7D57</color>
+    <color name="bg_btn_2">#FADCAF</color>
+    <color name="bg_btn_delete">#980101</color>
+    <color name="bg_color">#FBF2D4</color>
+</resources>
